@@ -41,3 +41,18 @@ body {
 .btn:hover {
     border-color: black;
 }
+
+.start-btn {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide {
+    display: none;
+}
