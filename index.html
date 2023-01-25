@@ -10,13 +10,21 @@
 </head>
 <body>
     <div class="container">
+        <header>
+            <div>
+                <button id="high-score">View High Scores</button>
+                <p id="timer">
+                    
+                </p>
+            </div>
+        </header>
         <div id="question-container" class="hide">
             <div id="question">question?</div>
                 <div id="answer-buttons" class="btn-grid">
-                     <button id="opt-1" class="btn">option 1</button>
-                     <button id="opt-2" class="btn">option 2</button>
-                     <button id="opt-3" class="btn">option 3</button>
-                     <button id="opt-4" class="btn">option 4</button>
+                     <button id="opt-1" class="btn" onclick="checkAnswer('opt1')">option 1</button>
+                     <button id="opt-2" class="btn" onclick="checkAnswer('opt2')">option 2</button>
+                     <button id="opt-3" class="btn" onclick="checkAnswer('opt3')">option 3</button>
+                     <button id="opt-4" class="btn" onclick="checkAnswer('opt4')">option 4</button>
                 </div>
             </div>
             <div class="controls">
