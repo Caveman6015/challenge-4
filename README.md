@@ -25,7 +25,8 @@ THEN the game is over
 WHEN the game is over
 THEN I can save my initials and my score
 ```
-  
+  ![screencapture-file-C-Users-jcand-bootcamp-challenge-4-index-html-2023-02-11-13_37_02](https://user-images.githubusercontent.com/108309331/218275344-95962172-98db-4ee7-b8d8-b119e4299f6f.png)
+
   ## Installation
   
   open an integrated terminal and enter 'node index.js'
